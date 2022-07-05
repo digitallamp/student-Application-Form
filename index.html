@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Application Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   
+    
+    <!-- Page Heading -->
+    <h3>Student Application Form</h3>
+    <!-- Form Start -->
+    <form class="form" method="post" name="Contact Form" data-netlify="true">
+        <!-- Student Information -->
+        <fieldset>
+        <legend>Student Full Name</legend>    
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname" placeholder="Enter First Name" size="50" required>
+        &nbsp;&nbsp;&nbsp;
+
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname" placeholder="Enter Last Name" size="50" required>
+        </fieldset>
+        <br>
+        <!-- Student Personal Information -->
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="mnumber">Student Contact Number: </label>
+            <input type="number" id="mnumber" name="mnumber" placeholder="Enter Mobile Number" required> <br>
+            &nbsp;&nbsp;&nbsp;<br>
+            <label for="eid">Student Email ID: </label>
+            <input type="text" id="eid" name="eid" placeholder="Enter Email ID" required> 
+            &nbsp;&nbsp;&nbsp;
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" name="dob" required>
+            <div class="gender">
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+            </div>
+            &nbsp;&nbsp;&nbsp;
+            <br><br>
+
+            <label for="place">Place of Birth: </label>
+            <input type="text" id="place" name="place" placeholder="Place of Birth" required>
+            &nbsp;&nbsp;&nbsp;
+            <label for="country">Country of Birth: </label>
+            <input type="text" id="country" name="country" placeholder="Country of Birth" required>
+            &nbsp;&nbsp;&nbsp;
+            <label for="pp">Passport Number: </label>
+            <input type="text" id="pp" name="pp" placeholder="Enter Passport Number" required>
+            &nbsp;&nbsp;&nbsp;
+            <label for="ppdate">Passport Date of Issue: </label>
+            <input type="date" id="ppdate" name="ppdate" required><br><br>
+            <label for="ppedate">Passport Date of Expire: </label>
+            <input type="date" id="ppedate" name="ppedate" required>
+            &nbsp;&nbsp;&nbsp;<br><br>
+            <label for="ad">Address: </label>
+            <input type="text" id="ad" name="ad" placeholder="Address " size="80" required> 
+            &nbsp;&nbsp;&nbsp;
+            <label for="city">City: </label>
+            <input type="text" id="city" name="city" placeholder="Enter City Name" required>
+            <br><br>
+            <label for="state">State: </label>
+            <input type="text" id="state" name="state" placeholder="Enter State Name" required>
+            &nbsp;&nbsp;&nbsp;
+            <label for="fathername">Student's Father Name: </label>
+            <input type="text" id="fathername" name="fathername" placeholder="Student's Father Name" size="50" required>
+            &nbsp;&nbsp;&nbsp;
+            <label for="mothername">Student's Mother Name: </label>
+            <input type="text" id="mothername" name="mothername" placeholder="Student's Mother Name" size="30" required>
+            <br><br>
+            <label for="married">Married</label>
+            <input type="radio" id="married" name="status">
+            <label for="unmarried">Un-Married</label>
+            <input type="radio" id="unmarried" name="status">
+<br><br>
+            <label for="ppimg">Please Upload Clear Scanned Passport (All Pages) </label>
+            <input type="file" id="ppimg" name="ppimg" multiple required>
+<br><br>
+            <fieldset>
+                <legend>English Language Proficiency</legend>
+                <label for="language">What is Your First Language? </label>
+                <input type="text" id="language" name="language" placeholder="English, Hindi, Etc">
+
+                <br><br>
+                    <p>Do you hold a certificate of English Proficiency (E.G. IELTS, TOEFL?): </p>
+                    <input type="radio" id="yes" name="certificate" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="certificate" value="no">
+                    <label for="no">No</label>  
+            </fieldset>
+
+            <fieldset>
+                <legend>Higher Education: </legend>
+                <input type="radio" id="sec" name="edu" value="school">
+                <label for="sec">Secondary</label>
+                <input type="radio" id="sen" name="edu" value="school">
+                <label for="sen">Senior Secondary</label>
+                <input type="radio" id="ug" name="edu" value="school">
+                <label for="ug">UG</label>
+                <input type="radio" id="pg" name="edu" value="school">
+                <label for="pg">PG</label>
+
+            </fieldset>
+            <br>
+            <input type="submit">
+
+        </fieldset>
+
+    </form>
+    <!-- Form End -->
+</body>
+</html>
